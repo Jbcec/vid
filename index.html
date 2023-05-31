@@ -40,6 +40,7 @@
             <li><a href="#presentacion">Quiénes somos</a></li>
             <li><a href="#proposito">Nuestro propósito</a></li>
             <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
           </ul>
         </div>
       </div>
@@ -168,6 +169,72 @@
                 data
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!--contacto-->
+      <!-- contacto -- -->
+      <section id="contacto" class="section section__contacto">
+        <h2 class="text-center">Contacto</h2>
+
+        <div class="contacto__wrapper">
+          <form
+            action="https://formspree.io/f/mbjqrpeg"
+            method="post"
+            class="contact__from"
+            id="contact__from"
+          >
+            <input
+              type="text"
+              name="Nombre y apellido"
+              placeholder="Nombre"
+              pattern="^[-a-zA-Z@\.+_ ]+$"
+              required
+            />
+            <input
+              type="text"
+              name="Teléfono"
+              placeholder="Teléfono"
+              pattern="^[0-9]+$"
+              minlength="7"
+              required
+            />
+            <input
+              type="text"
+              name="_replyto"
+              placeholder="E-mail"
+              pattern="^[a-zA-Z0-9\-\._]+@[a-zA-Z0-9\-\._]+\.[a-zA-Z0-9]+$"
+              required
+            />
+            <textarea
+              name="Mensaje"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Mensaje"
+              required
+            ></textarea>
+            <input type="submit" value="ENVIAR" />
+          </form>
+
+          <div class="contact_widget__container">
+            <a class="contact_widget" href="mailto:imm@vidconsultora.com.ar">
+              <i class="far fa-envelope widget_icon"></i>
+              <h4 class="widget_text">imm@vidconsultora.com.ar</h4>
+            </a>
+            <a class="contact_widget" href="https://instagram.com/">
+              <i class="fab fa-instagram footer-social-icon widget_icon"></i>
+              <h4 class="widget_text">arroba@ejemplo</h4>
+            </a>
+            <a class="contact_widget" href="https://www.linkedin.com/">
+              <i class="fab fa-linkedin-in footer-social-icon widget_icon"></i>
+              <h4 class="widget_text">arroba@ejemplo</h4>
+            </a>
+            <a class="contact_widget" href="https://www.facebook.com/">
+              <i class="fab fa-facebook-f footer-social-icon widget_icon"></i>
+              <h4 class="widget_text">arroba@ejemplo</h4>
+            </a>
           </div>
         </div>
       </section>
