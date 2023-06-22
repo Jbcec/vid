@@ -54,6 +54,10 @@ p {
   display: none !important;
 }
 
+.image_container {
+  display: none !important;
+}
+
 .ag-format-container {
   width: 100%;
   padding: 1em 1em 2em 1em;
@@ -867,12 +871,43 @@ p {
     padding-top: 70px;
   }
 
-  .title-content {
-    margin: 36% 0 0 0;
+  .about_us {
+    max-width: 55%;
   }
 
   .about_us__container {
-    flex-direction: row;
+    width: 100%;
+    flex-direction: column;
+    display: -webkit-inline-box;
+    padding: 1em;
+  }
+
+  .image_container {
+    width: 43%;
+    display: block !important;
+  }
+
+  .slide-logo {
+    width: 100%;
+    display: inline;
+    animation: slide-logo 3s ease 0s 1 normal forwards;
+  }
+
+  @keyframes slide-logo {
+    0% {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+
+  .title-content {
+    margin: 36% 0 0 0;
   }
 
   .proposito li {
@@ -928,7 +963,7 @@ p {
 
   /*Servicios*/
   .ag-cards_item:last-child {
-    margin-left: 439px;
+    margin-left: 488px;
   }
 
   .section_servicios {
