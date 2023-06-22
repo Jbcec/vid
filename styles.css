@@ -883,6 +883,7 @@ p {
   }
 
   .image_container {
+    padding-top: 0.5em;
     width: 43%;
     display: block !important;
   }
@@ -898,13 +899,12 @@ p {
       opacity: 0;
       transform: translateX(50px);
     }
-  
+
     100% {
       opacity: 1;
       transform: translateX(0);
     }
   }
-  
 
   .title-content {
     margin: 36% 0 0 0;
