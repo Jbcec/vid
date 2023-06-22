@@ -961,11 +961,6 @@ p {
     float: right;
   }
 
-  /*Servicios*/
-  .ag-cards_item:last-child {
-    margin-left: 488px;
-  }
-
   .section_servicios {
     margin-top: 4em;
   }
