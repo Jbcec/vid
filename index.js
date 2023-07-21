@@ -20,18 +20,6 @@ function suscribeMenuEvents() {
     if (popupMenu.checked) popupMenu.click();
 
     var currentScrollPos = window.pageYOffset;
-    if (pcWidth.matches) {
-      if (currentScrollPos <= 100) {
-        navContainer.style.borderBottom = "none";
-      } else {
-        navContainer.style.borderBottom = "1px solid #0070cd";
-      }
-    }
-    if (prevScrollpos > currentScrollPos) {
-      navContainer.style.top = "0";
-    } else {
-      navContainer.style.top = "-100px";
-    }
     prevScrollpos = currentScrollPos;
   });
 
