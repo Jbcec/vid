@@ -416,6 +416,7 @@ article a {
   height: 27em;
   padding: 1em;
   background-color: #012168bd;
+  text-align: center;
 }
 
 .li_quote {
@@ -823,7 +824,7 @@ article a {
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
   }
 
