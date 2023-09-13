@@ -141,43 +141,6 @@ article a {
   display: none !important;
 }
 
-/* HEADER */
-.header {
-  background-color: white;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-image: url(assets/Isologo.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 80%;
-  background-attachment: fixed;
-  position: relative;
-  padding: 1.5em;
-}
-.header::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: " ";
-  width: 100%;
-  height: 100%;
-}
-.header__content {
-  color: #fafafa;
-  z-index: 10;
-}
-
-.header__img {
-  width: 90vw;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .accordion-body {
   font-weight: 600;
 }
@@ -230,6 +193,10 @@ article a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.no-touch .parallax {
+  background-attachment: fixed;
 }
 
 /* SECTION */
@@ -331,6 +298,7 @@ article a {
   height: 2em;
   display: block;
   cursor: pointer;
+  border-radius: 2px;
 }
 .menu__btn_toggle_hamb span {
   position: absolute;
@@ -421,7 +389,7 @@ article a {
 
 .li_quote {
   float: center;
-  background-color: #012168bd;
+  background-color: var(--secondary-background);
 }
 
 /* SECTION_SERVICIOS_CARDS*/
@@ -808,6 +776,7 @@ article a {
     width: 45%;
     margin-left: auto;
     margin-right: auto;
+    color: white;
   }
 
   .li_second_proposito {
@@ -834,10 +803,10 @@ article a {
 
   /*Propósito*/
   .section_proposito {
-    padding-top: 1em;
+    padding-top: 2em;
     width: 100%;
     height: 22em;
-    background-color: #012168bd;
+    background-color: var(--secondary-background);
   }
 
   .quote {
@@ -849,7 +818,7 @@ article a {
 
   .li_quote {
     float: center;
-    background-color: #012168bd;
+    background-color: var(--secondary-background);
   }
 
   .section_servicios {
