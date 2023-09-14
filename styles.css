@@ -376,6 +376,7 @@ article a {
   height: 32em;
   padding: 3em;
   background-color: var(--secondary-background);
+  color: white;
   text-align: center;
 }
 
