@@ -891,6 +891,7 @@ article a {
 @media only screen and (width: 414px) and (height: 896px) and (-webkit-device-pixel-ratio: 2) {
   .section_proposito {
     height: 36em;
+    background-color: red !important;
   }
 }
 
