@@ -890,7 +890,7 @@ article a {
 /* 828×1792 pixels at 326ppi */
 @media only screen and (width: 414px) and (height: 896px) and (-webkit-device-pixel-ratio: 2) {
   .section_proposito {
-    height: 36em;
+    height: 38em;
     background-color: red !important;
   }
 }
@@ -899,5 +899,6 @@ article a {
 @media only screen and (width: 414px) and (height: 896px) and (-webkit-device-pixel-ratio: 2) {
   .section_proposito {
     height: 38em;
+    background-color: blue !important;
   }
 }
