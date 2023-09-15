@@ -897,6 +897,6 @@ article a {
 /* 1242×2688 pixels at 458ppi */
 @media only screen and (width: 414px) and (height: 896px) and (-webkit-device-pixel-ratio: 2) {
   .section_proposito {
-    height: 36em;
+    height: 38em;
   }
 }
