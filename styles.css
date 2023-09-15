@@ -142,22 +142,6 @@ article a {
   display: block;
 }
 
-#seccionAnimada a span {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 50px;
-  height: 50px;
-  margin-left: -24px;
-  border-left: 1px solid #0070cd;
-  border-bottom: 1px solid #0070cd;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  -webkit-animation: sdb05 2s infinite;
-  animation: sdb05 2.5s infinite;
-  box-sizing: border-box;
-}
-
 .animacion a {
   position: absolute;
   bottom: 20px;
@@ -868,76 +852,16 @@ article a {
 }
 
 /* ----------- */
-/* Animaciones */
+/* Iphone */
 /* ----------- */
 
-@-webkit-keyframes sdb05 {
-  0% {
-    -webkit-transform: rotate(-45deg) translate(0, 0);
-    opacity: 0;
-  }
-  50% {
-    opacity: 2;
-  }
-  100% {
-    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
-    opacity: 0;
+@media only screen and (width: 375px) and (height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .section_proposito {
+    height: 36em;
   }
 }
-@keyframes sdb05 {
-  0% {
-    transform: rotate(-45deg) translate(0, 0);
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    transform: rotate(-45deg) translate(-20px, 20px);
-    opacity: 0;
-  }
-}
-@keyframes margin-top_-35 {
-  0% {
-    margin-top: 0%;
-  }
-  100% {
-    margin-top: -35%;
-  }
-}
-
-@keyframes margin-top_-12 {
-  0% {
-    margin-top: 0%;
-  }
-  100% {
-    margin-top: -14%;
-  }
-}
-
-@keyframes margin-top_-55 {
-  0% {
-    margin-top: 0%;
-  }
-  100% {
-    margin-top: -50%;
-  }
-}
-
-@keyframes margin-top_-60 {
-  0% {
-    margin-top: 0%;
-  }
-  100% {
-    margin-top: -60%;
-  }
-}
-
-@keyframes margin-top_-65 {
-  0% {
-    margin-top: 0%;
-  }
-  100% {
-    margin-top: -65%;
+@media only screen and (width: 375px) and (height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  .section_proposito {
+    height: 36em;
   }
 }
