@@ -865,3 +865,38 @@ article a {
     height: 36em;
   }
 }
+
+/*iPhone 14*/
+@media only screen and (width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+  .section_proposito {
+    height: 36em;
+  }
+}
+
+/*iPhone 14 Pro*/
+@media only screen and (width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) {
+  .section_proposito {
+    height: 36em;
+  }
+}
+
+/*iPhone 14 Pro Max*/
+@media only screen and (device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) {
+  .section_proposito {
+    height: 36em;
+  }
+}
+
+/* 828×1792 pixels at 326ppi */
+@media only screen and (width: 414px) and (height: 896px) and (-webkit-device-pixel-ratio: 2) {
+  .section_proposito {
+    height: 36em;
+  }
+}
+
+/* 1242×2688 pixels at 458ppi */
+@media only screen and (width: 414px) and (height: 896px) and (-webkit-device-pixel-ratio: 3) {
+  .section_proposito {
+    height: 36em;
+  }
+}
