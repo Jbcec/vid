@@ -181,14 +181,9 @@ article a {
   padding: 1em;
   background-image: url("assets/parallax.jpg");
   min-height: 600px;
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.no-touch .parallax {
-  background-attachment: fixed;
 }
 
 /* SECTION */
