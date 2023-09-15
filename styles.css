@@ -896,9 +896,9 @@ article a {
 }
 
 /* 1242×2688 pixels at 458ppi */
-@media only screen and (width: 414px) and (height: 896px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (min-device-width: 414px) and (height: 896px) and (-webkit-device-pixel-ratio: 3) {
   .section_proposito {
     height: 38em;
-    background-color: blue !important;
+    background-color: orange !important;
   }
 }
